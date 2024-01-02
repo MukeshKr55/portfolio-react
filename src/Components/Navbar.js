@@ -18,7 +18,7 @@ export const Navbar = () => {
             <button onClick={() => {setExpandNav((prev) => !prev)}}><Reorder /></button>
         </div>
         <div className="links">
-            <Link to="/portfolio-react">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/experience">Experience</Link>
         </div>
