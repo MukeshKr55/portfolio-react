@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/portfolio-react" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path='/projects/:id' element={<ProjectDisplay />} />
         <Route path="/experience" element={<Experience />} />
